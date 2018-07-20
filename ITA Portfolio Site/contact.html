@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Brandon Roffis</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,300i,400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="responsive.css" >
+    </head>
+    <body>
+        <header>
+            <a href="index.html" id="my_logo">
+                <h1>Brandon Roffis</h1>
+                <h2>Coffee. Food. Code.</h2>
+            </a>
+            <nav>
+                <ul>
+                    <li class="nav_item"><a href="bio.html">Biography</a></li>
+                    <li class="nav_item"><a href="resume.html">Resume</a></li>
+                    <li class="nav_item"><a href="gallery.html">Gallery</a></li>
+                    <li class="nav_item active"><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <div id="contact_form">
+            <form id="inputs" action="#" method="GET">
+                <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" class="input">
+                <label for="lastname">Last Name: </label>
+                    <input type="text" id="lastname" name="lastname" class="input">
+                <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" class="input">
+                <label for="phone_number">Phone Number:</label>
+                    <input type="number" id="phone_number" name="phone_number" class="input">
+                <label for="company">Company:</label>
+                    <input type="text" id="company" name="company" class="input">
+                <label for="comments">Questions/Comments:</label>
+                    <textarea id="comments" name="comments" rows="10" cols="30" class="input"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit" id="submit" onclick="">
+            </form>
+        </div>
+        <footer>
+            <a href="https://www.linkedin.com/in/brandon-roffis-3806a146/">
+                <img src="Images/linkedin.png" alt="Linked-In logo" class="social_icon">
+            </a>
+            <a href="https://twitter.com/broffis91">
+                <img src="Images/twitter.png" alt="Twitter logo" class="social_icon">
+            </a>
+            <a href="https://www.instagram.com/kitchen_politician/">
+                <img src="Images/instagram.png" alt="Instagram logo" class="social_icon">
+            </a>
+            <a href="https://www.roadtohire.org/">
+                <img src="Images/R2H_logo transparent.png" alt="Road 2 Hire logo" class="social_icon" id="r2h_logo">
+            </a>
+            <p>&copy; 2018 Brandon Roffis</p>
+        </footer>
+    </body>
+    <script src="app.js"></script>
+</html>

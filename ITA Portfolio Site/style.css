@@ -1,0 +1,428 @@
+/***************************
+General
+***************************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+#wrapper {
+    /* max-width: 940px; */
+    margin: 0 0;
+    /* padding: 20% 0 0 0; */
+    padding: 0 ;
+}
+
+/***************************
+header
+***************************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0 ;
+    width: 100%;
+    display: block;
+    position: fixed;
+    z-index: 2;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+#logo h1 {
+    font-weight: bold;
+}
+
+#my_logo h1,
+#my_logo h2 {
+    text-align: center;
+}
+
+
+h1 {
+    margin: 0 0 15px 0;
+    /* margin: 0; */
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 0.8em;
+    text-align: left;
+}
+
+h2 {
+    font-size: 0.65em;
+    margin: -5px 0 2px 0;
+    font-weight: normal;
+}
+
+/***************************
+Navigation
+***************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    /* margin: 20px 0 0 0; */
+    width: 100%;
+    /* margin: 20px 0; */
+    /* position: fixed; */
+    /* z-index: 998; */
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: lighter;
+    padding: 15px 10px;
+}
+
+/***************************
+Homepage
+***************************/
+
+#main_page {
+    position: relative;
+}
+
+
+#main_page:after {
+    content: "";
+    display: block;
+    background: url(Images/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+    
+}
+
+#main_page h1 {
+    text-align: center;
+    margin: 17.5% 0 0 0;
+    vertical-align: middle;
+    padding: 10%;
+    font-weight: bolder;
+    font-size: 3em;
+    /* background-color: #fff; */
+    opacity: 1;
+    display: block;
+}
+
+.background_white {
+
+}
+
+.background_clear {
+
+}
+
+section {
+    display: block;
+}
+
+/***************************
+Gallery
+***************************/
+
+
+#gallery {
+    margin: 0;
+    padding: 20% 0 0 0;
+    list-style: none;
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+
+#gallery li {
+    float: center;
+    width: 40%;
+    margin: 2.5%;
+    /* margin: 0; */
+    padding: 2%;
+    background: #979797;
+    border: none;
+    display: inline-block;
+}
+
+#gallery img {
+    max-width: 100%;
+    padding: 0 1%;
+}
+
+
+#gallery li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#gallery li:hover {
+    background: #97979702;
+    border: 2px solid black;
+}
+
+/***************************
+Resume
+***************************/
+
+#full_resume {
+    /* background: hotpink; */
+    margin: 0 auto;
+    padding: 25% 5% 10% 5%;
+}
+
+/***************************
+Contact Me
+***************************/
+
+#contact_form {
+
+}
+
+#inputs {
+    padding: 40% 20% 20% 20%;
+}
+
+.input {
+    width: 100%;
+}
+
+#submit {
+    width: 100px;
+    height: auto;
+    background: #9a9a9a;
+    border-radius: 8%;
+}
+
+/***************************
+Bio
+***************************/
+
+#bio_body {
+    max-width: 80%;
+    margin: 0 10%;
+    padding: 20% 0 0 0 0;
+}
+
+#bio_pic {
+    /* margin: 5% 0; */
+    align-items: center;
+    border-radius: 30%;
+    max-width: 50%;
+    float: center;
+    padding: 25% 25% 0 25%;
+}
+
+/***************************
+Footer
+***************************/
+
+footer {
+    font-size: 0.65em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #373737;
+}
+
+
+.social_icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    /* background: #171717; */
+}
+
+#r2h_logo {
+    width: auto;
+    height: 20px;
+    margin: 0 5px;
+    
+}
+
+/***************************
+Colors
+***************************/
+
+body {
+    background-color: #fff;
+    color: #373737;
+}
+
+header, footer {
+    background: #9a9a9a;
+    border-color: #6e6e6e;
+}
+
+nav {
+    background: #6e6e6e;
+}
+
+nav a {
+    color: #fff;
+}
+
+h1, h2, nav a:visited, h1 a:visited {
+    color: #171717;
+}
+
+nav a:hover {
+    color: #9d9d9d;
+}
+
+nav li.active a {
+    color: #fff; /*Change color before final*/
+    font-weight:  bold;
+}
+
+/*********************************************************************************/
+/******************************
+Font Settings
+******************************/
+ 
+/*
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+*/
+ 
+ 
+#full_resume h1 {
+    font-weight: bold;
+    font-size: 3.5em;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+ 
+#full_resume h2 {
+    font-weight: bold;
+    font-size: 0.7em;
+    font-family: 'Raleway', sans-serif;
+    color: #26A5ED;
+}
+ 
+#full_resume h3 {
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+ 
+#full_resume h6 {
+/*    font-weight: lighter;*/
+    font-size: 0.6em;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+ 
+#full_resume p, #full_resume ul {
+    font-family: 'Merriweather', serif;
+    font-size: 0.4em;
+    margin: 0;
+}
+ 
+/******************************
+Header
+******************************/
+#resume_header {
+    width: 100%;
+    display: block;
+}
+ 
+#resume_name {
+    width: 70%;
+    display: inline-block;
+    float: left;
+    margin: 2.5% 2.5% 0% 2.5%;
+}
+ 
+#resume_contact_info {
+    width: 21%;
+    margin: 2%;
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+ 
+/******************************
+Resume Left
+******************************/
+ 
+#resume_left {
+    width: 70%;
+    display: inline-block;
+    float: left;
+    margin: 2.5%;
+}
+ 
+#resume_experience h6,
+#resume_experience p,
+#resume_education h6,
+#resume_education p {
+    margin: 1%;
+}
+ 
+#resume_experience h3,
+#resume_education h3{
+    margin: 3% 0 0 0;
+}
+ 
+/******************************
+Resume Right
+******************************/
+ 
+#resume_right {
+    width: 25%;
+    display: inline-block;
+    float: right;
+    margin: 0;
+}
+ 
+#resume_skills ul,
+#resume_awards ul {
+    list-style: none;
+    padding: 5% 1%;
+}
+ 
+#resume_skills li,
+#resume_awards li {
+    margin: 5%;
+    text-align: left;
+}
+ 
+ 
+#resume_awards p {
+    font-size: 0.85em;
+    margin: 2%;
+}
+ 
+#resume_languages p {
+    padding: 0% 0% 0% 6%;
+}

@@ -1,0 +1,140 @@
+@media screen and (min-width: 481px) {
+
+    /**************************
+    Header
+    **************************/
+
+    h1 {
+        margin: 0 0 20px 0;
+        /* margin: 0; */
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 1em;
+        /* text-align: left; */
+    }
+
+    h2 {
+        font-size: 0.85em;
+        margin: -5px 0 5px 0;
+    }
+
+    /**************************
+    Bio Page Layout
+    **************************/
+    #bio_pic {
+        max-width: 50%;
+        float: left;
+        display: inline-block;
+        margin: 2.5%;
+        padding: 20% 0 0 0;
+    }
+
+    #bio_pic img {
+        border-radius: 20%;
+    }
+
+    #bio_body {
+        max-width: 40%;
+        float: right;
+        display: inline-block;
+        margin: 2.5%;
+        padding: 20% 0 0 0;
+    }
+
+    /**************************
+    Gallery
+    **************************/
+
+    #gallery li {
+        width: 27.333%;
+        margin: 1.5%;
+        padding: 1%;
+    }
+
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+
+    /**************************
+    Contact Me
+    **************************/
+    #contact_form {
+        padding: 0 20%;
+    }
+
+    #inputs {
+        padding: 25%;
+    }
+
+    /**************************
+    Resume
+    **************************/
+
+    #full_resume p, #full_resume ul {
+        font-size: 0.6em;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+    /**************************
+    Header
+    **************************/
+
+    h1 {
+        margin: 0 0 20px 0;
+        /* margin: 0; */
+        font-size: 2.5em;
+        font-weight: bold;
+        line-height: 1.5em;
+        /* text-align: left; */
+    }
+
+    h2 {
+        font-size: 1em;
+        margin: -5px 0 10px 0;
+    }
+
+    /**************************
+    Gallery
+    **************************/
+
+    #gallery li {
+        width: 20%;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    #gallery li:nth-child(5n) {
+        clear: left;
+    }
+
+    /**************************
+    Resume
+    **************************/
+
+    #full_resume {
+    }
+
+    #full_resume p, #full_resume ul {
+        font-size: 0.8em;
+    }
+     
+    #full_resume h1 {
+        font-weight: bold;
+        font-size: 4.5em;
+    }
+    
+    #full_resume h2 {
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+    
+    #full_resume h3 {
+        font-size: 1.5em;
+    }
+    
+    #full_resume h6 {
+        font-size: 0.75em;
+    }
+}
